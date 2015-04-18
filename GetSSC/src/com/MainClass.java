@@ -13,7 +13,7 @@ import com.data.Data;
 
 public class MainClass {
 	public static void main(String[] args) throws Exception {
-		String date = "2015-04-18";
+		String date = "2015-04-17";
 		String filePath1 = "D:\\" + date + "重庆.txt";
 		writeString2File("数据个数,时间,万位,千位,百位,十位,个位\r\n", filePath1);
 		String filePath2 = "D:\\" + date + "江西.txt";
